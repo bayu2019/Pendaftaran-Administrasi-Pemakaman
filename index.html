@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Administrasi Pemakaman Online - DPRKP Kota Cirebon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #1e1e2f;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Gambar sebagai kop surat */
+        .cemetery-image {
+            width: 100%;
+            max-width: 600px;
+            overflow: hidden;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        .cemetery-image img {
+            width: 100%;
+            display: block;
+        }
+
+        /* Kontainer form dan tombol */
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            border: 3px solid #FFD700;
+            border-radius: 25px;
+            background-color: #282843;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #FFD700;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: block;
+            padding: 18px;
+            background-color: #FFD700;
+            color: #222;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .btn:hover {
+            background-color: #FFC000;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+
+        /* Warna tombol berubah saat diklik */
+        .btn:active {
+            background-color: #FF8000 !important;
+            transform: scale(0.95);
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: #ccc;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        /* Logo DPRKP di bagian bawah */
+        .dprkp-logo {
+            width: 100%;
+            max-width: 150px; /* Sesuaikan ukuran */
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Gambar Kop Surat -->
+    <div class="cemetery-image">
+        <img src="IMG_20250304_230641.jpg" alt="Pemandangan Pemakaman">
+    </div>
+
+    <!-- Konten Formulir -->
+    <div class="container">
+        <h1>Pendaftaran Administrasi Pemakaman Online</h1>
+        <p class="subtitle">Silahkan pilih layanan yang ingin Anda ajukan :</p>
+
+        <div class="btn-container">
+            <a href="https://forms.gle/X2NNzjrqzMsfhzMs8" class="btn">Permohonan Surat Petak Makam</a>
+            <a href="https://forms.gle/FU7JDEN3EVvu2hJU6" class="btn">Perpanjangan Surat Petak Makam</a>
+            <a href="https://forms.gle/d73uYQwuTXfuga2eA" class="btn">Pemindahan Kerangka Jenazah</a>
+        </div>
+
+        <div class="footer">
+            <img src="1741275133181.jpg" alt="Logo DPRKP" class="logo">
+            <p>© 2025 DPRKP Kota Cirebon | UPT Pertamanan dan Pemakaman</p>
+        </div>
+    </div>
+
